@@ -1,0 +1,26 @@
+{
+   "name": "API",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon index.js"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "hapi": "^17.2.3",
+      "hapi-auth-jwt2": "^8.1.0",
+      "hapi-swagger": "^9.1.1",
+      "inert": "^5.1.0",
+      "joi": "^13.1.2",
+      "jsonwebtoken": "^8.2.0",
+      "mongoose": "^5.0.12",
+      "vision": "^5.3.2"
+   },
+   "devDependencies": {
+      "nodemon": "^1.17.3"
+   }
+}
